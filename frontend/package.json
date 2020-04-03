@@ -2,6 +2,18 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "apidoc": {
+    "name": "Microservice Centaurus Virtual Card",
+    "title": "Centaurus Microservice",
+    "url": "",
+    "version": "0.0.1",
+    "order": [
+      "Error",
+      "Define",
+      "PostTitleAndError",
+      "PostError"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -9,6 +21,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.9.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {
